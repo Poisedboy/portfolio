@@ -71,9 +71,57 @@ code {
 
 .profile {
   display: flex;
+  padding: 10px;
+  border-radius: 20px;
+  background: rgba(58, 123, 153, 0.4);
+
+}
+
+.profile .image {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .profile .image img {
+  position: absolute;
   width: 100%;
+  object-fit: cover;
 }
 
+.profile .description {
+  margin-left: 10px;
+}
+
+.list {
+  margin: 1rem 0;
+  padding: 10px;
+  background: rgba(58, 123, 153, 0.4);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.list .card {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 20px;
+  background: #FFFFFF;
+  list-style: none;
+  overflow: hidden;
+}
+
+.list .card h3 {
+  text-align: center;
+}
+
+.list .card .repo {
+  text-decoration: none;
+}
+
+.list .card img {
+  width: 100%;
+}
