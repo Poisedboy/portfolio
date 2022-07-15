@@ -1,8 +1,15 @@
 import React from "react";
 
 const Header = () => {
+
+    const toggleButton = () => {
+        let navigation = document.querySelector('.social-buttons');
+        navigation.classList.toggle('active');
+    };
+
     return (
-        <div className="social-buttons">
+        <header className="social-buttons">
+            <span className="toggle" onClick={toggleButton}></span>
             <a href="/">
                 <span className="icon">
                     <ion-icon name="home-outline"></ion-icon>
@@ -27,9 +34,8 @@ const Header = () => {
                 <span className="icon">
                     <ion-icon name="call-outline"></ion-icon>
                 </span>
-                095 86 80 714
             </a>
-        </div>
+        </header>
     )
 };
 
