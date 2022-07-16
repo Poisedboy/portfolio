@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.de0a9eb6.css",
-    "main.js": "/portfolio/static/js/main.446e8f6c.js",
+    "main.css": "/portfolio/static/css/main.61398763.css",
+    "main.js": "/portfolio/static/js/main.f5f0ac1e.js",
     "static/media/Beschasnyi Serhii.jpg": "/portfolio/static/media/Beschasnyi Serhii.a8fe24d8034347537d06.jpg",
     "index.html": "/portfolio/index.html",
-    "main.de0a9eb6.css.map": "/portfolio/static/css/main.de0a9eb6.css.map",
-    "main.446e8f6c.js.map": "/portfolio/static/js/main.446e8f6c.js.map"
+    "main.61398763.css.map": "/portfolio/static/css/main.61398763.css.map",
+    "main.f5f0ac1e.js.map": "/portfolio/static/js/main.f5f0ac1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.de0a9eb6.css",
-    "static/js/main.446e8f6c.js"
+    "static/css/main.61398763.css",
+    "static/js/main.f5f0ac1e.js"
   ]
 }
