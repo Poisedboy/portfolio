@@ -10,11 +10,11 @@ const Header = () => {
     return (
         <header className="social-buttons">
             <span className="toggle" onClick={toggleButton}></span>
-            <a href="/">
+            {/* <a href="/">
                 <span className="icon">
                     <ion-icon name="home-outline"></ion-icon>
                 </span>
-            </a>
+            </a> */}
             <a href="/">
                 <span className="icon">
                     <ion-icon name="logo-instagram"></ion-icon>
