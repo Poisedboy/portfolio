@@ -1,0 +1,28 @@
+.navbar {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar h3 {
+    font-weight: 100;
+}
+
+.links {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.links > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.links > a:focus {
+    text-decoration: underline;
+}

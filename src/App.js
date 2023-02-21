@@ -1,12 +1,15 @@
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import RoutePath from './routes/RoutesPath';
+import './app.css';
+import Mask from './components/Mask/Mask';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
-    <div className="app">
-      <Header />
-      <Main />
-    </div>
+    <>
+      <Mask />
+      <NavBar />
+      <RoutePath />
+    </>
   );
 }
 
