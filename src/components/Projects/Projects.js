@@ -7,7 +7,7 @@ const projects = [
     { id: 3, name: 'Abstract', link: 'https://github.com/Poisedboy/abstract', website: 'https://poisedboy.github.io/abstract/' },
     { id: 4, name: 'Calculator', link: 'https://github.com/Poisedboy/calculator', website: 'https://poisedboy.github.io/calculator/' },
     { id: 5, name: 'Star Wars', link: '', website: 'https://poisedboy.github.io/star-wars/' },
-    { id: 6, name: '', link: '', website: '' },
+    { id: 6, name: 'Opera Passage', link: '', website: 'https://poisedboy.github.io/opera-ui/' },
     { id: 7, name: '', link: '', website: '' }
 ]
 
