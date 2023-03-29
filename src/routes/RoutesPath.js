@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "../components/Home/Home";
-import Info from "../components/Info/Info";
+import Contacts from "../components/Contacts/Contacts";
 import Projects from '../components/Projects/Projects';
 
 export default function RoutePath() {
@@ -8,7 +8,7 @@ export default function RoutePath() {
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='projects' element={<Projects />} />
-            <Route path='info' element={<Info />} />
+            <Route path='contacts' element={<Contacts />} />
         </Routes>
     );
 };

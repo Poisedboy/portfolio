@@ -1,10 +1,10 @@
 import React from "react";
-import './info.css';
+import './contacts.css';
 import instagram from '../../assets/instagram.png';
 import phone from '../../assets/phone.png';
 import linkedin from '../../assets/linkedin.png';
 
-const Info = () => {
+const Contacts = () => {
     return (
         <div className="info">
             <div className="text">
@@ -42,4 +42,4 @@ const Info = () => {
     );
 };
 
-export default Info;
+export default Contacts;
