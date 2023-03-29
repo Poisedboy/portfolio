@@ -13,7 +13,12 @@ const Home = () => {
 
     return (
         <div className="main">
-            description
+            <p>
+                I am constantly engaged in the web development. <strong>ATS267</strong> and
+                <strong>Opera passage</strong> are launched websites which were made to order.
+                I like <strong>outdoor activities</strong>, walking tours in Carpathian mountains,
+                travel to new places around Lviv or playing the basketball. 
+            </p>
         </div>
     )
 };

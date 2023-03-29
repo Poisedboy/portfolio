@@ -1,4 +1,6 @@
 .main { 
+    font-family: "Roboto", sans-serif;
+    width: 200px;
     position: absolute;
     bottom: 55px;
     right: 35px;
