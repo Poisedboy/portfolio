@@ -1,0 +1,29 @@
+.info {
+    max-width: 200px;
+    max-height: 100%;
+    position: absolute;
+    bottom: 55px;
+    right: 35px;
+}
+
+.text {
+    width: 100px;
+    position: inherit;
+    right: 75px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.icons > a {
+    margin-bottom: 10px;
+}
+
+.icons img {
+    max-width: 45px;
+    max-height: 45px;
+}

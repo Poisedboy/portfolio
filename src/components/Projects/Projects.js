@@ -24,7 +24,7 @@ const Projects = () => {
     return (
         <div className="container">
             <div className="content">
-                <h3>Projects (frontend)</h3>
+                <h3>Projects (frontend & design)</h3>
                 {listedProjects}
             </div>
         </div>
