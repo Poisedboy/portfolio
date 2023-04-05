@@ -3,10 +3,16 @@ import './contacts.css';
 import instagram from '../../assets/instagram.png';
 import phone from '../../assets/phone.png';
 import linkedin from '../../assets/linkedin.png';
+import { animated, useSpring } from "@react-spring/web";
 
 const Contacts = () => {
+    const springs = useSpring({
+        from: { x: 150 },
+        to: { x: 0 }
+    });
+
     return (
-        <div className="info">
+        <animated.div className="info" style={{...springs}}>
             <div className="text">
                 <p><strong>Feel free</strong> to text <strong>me</strong></p>   
             </div>
@@ -38,7 +44,7 @@ const Contacts = () => {
                     />
                 </a>
             </div>
-        </div>
+        </animated.div>
     );
 };
 

@@ -1,5 +1,6 @@
 import React from "react";
 import './home.css';
+import { useSpring, animated } from '@react-spring/web';
 
 // const listWebPage = [
 //     { id: 1, link: 'https://poisedboy.github.io/sidebar/', gitHubLink: 'https://github.com/Poisedboy/sidebar/' },
@@ -10,16 +11,20 @@ import './home.css';
 // ];
 
 const Home = () => {
+    const springs = useSpring({
+        from: { x: 150 },
+        to: { x: 0 }
+    });
 
     return (
-        <div className="main">
+        <animated.div className="main" style={{...springs}}>
             <p>
                 I am constantly engaged in the web development. <strong>ATS267</strong> and
                 <strong>Opera passage</strong> are launched websites which were made to order.
                 I like <strong>outdoor activities</strong>, walking tours in Carpathian mountains,
                 travel to new places around Lviv or playing the basketball. 
             </p>
-        </div>
+        </animated.div>
     )
 };
 

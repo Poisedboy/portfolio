@@ -1,5 +1,6 @@
 import React from "react";
 import './projects.css';
+import { useSpring, animated } from "@react-spring/web";
 
 const projects = [
     { id: 0, name: 'ATS267', link: '', website: 'https://poisedboy.github.io/ats267/' },
@@ -12,12 +13,16 @@ const projects = [
 ]
 
 const Projects = () => {
+    const springs = useSpring({
+        from: { x: 500 },
+        to: { x: 0 }
+    });
 
     const listedProjects = projects.map(pro => {
         return (
-            <div key={pro.id}>
+            <animated.div key={pro.id} style={{...springs}}>
                 <a href={pro.website}>{pro.name}</a> 
-            </div>
+            </animated.div>
         );
     });
 

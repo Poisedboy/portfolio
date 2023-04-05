@@ -4,6 +4,7 @@ import Contacts from "../components/Contacts/Contacts";
 import Projects from '../components/Projects/Projects';
 
 export default function RoutePath() {
+
     return (
         <Routes>
             <Route path='/' element={<Home />} />

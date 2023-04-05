@@ -4,6 +4,7 @@ import Mask from './components/Mask/Mask';
 import NavBar from './components/NavBar/NavBar';
 
 function App() {
+
   return (
     <>
       <Mask />
