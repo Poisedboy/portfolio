@@ -3,7 +3,7 @@ import './projects.css';
 import { useSpring, animated } from "@react-spring/web";
 
 const projects = [
-    { id: 0, name: 'ATS267', link: '', website: 'https://poisedboy.github.io/ats267/' },
+    { id: 0, name: 'ATS267', link: '', website: 'https://ats267.com.ua/' },
     { id: 1, name: 'Wallet', link: 'https://github.com/Poisedboy/wallet', website: '' },
     { id: 6, name: 'Opera Passage', link: '', website: 'https://poisedboy.github.io/opera-ui/' },
     { id: 2, name: 'Exchange rate', link: 'https://github.com/Poisedboy/exchange-rate', website: 'https://poisedboy.github.io/exchange-rate/' },
